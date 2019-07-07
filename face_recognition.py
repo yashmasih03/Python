@@ -21,10 +21,10 @@ eye_cascade = cv2.CascadeClassifier('DataSets/Faces/haarcascade_eye.xml')
 img = cv2.imread('DataSets/Faces/dwayne_and_james.jpg') # The image is transformed into a numpy array
 faces = face_cascade.detectMultiScale(img, 1.3, 5) #returns the position of the detected faces as Rect(x,y,w,h), #face_cascade.detectMultiScale(img, scalefactor, minNeighbors)
 
-#scalefactor In a group photo, there may be some faces which are near the camera than others. Naturally, such faces would appear more
-# prominent than the ones behind. This factor compensates for that.
-
-#minNeighbors This parameter specifies the number of neighbors a rectangle should have to be called a face.
+# detectMultiScale(image, scalefactor, minNeighbors)
+# scalefactor: In a group photo, there may be some faces which are near the camera than others. Naturally, such faces would appear more
+#             prominent than the ones behind. This factor compensates for that.
+# minNeighbors: This parameter specifies the number of neighbors a rectangle should have to be called a face.
 
 # Print the number of faces found
 print('Faces found: ', len(faces))
