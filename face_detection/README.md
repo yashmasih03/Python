@@ -1,11 +1,11 @@
-## Read Me
+# Read Me
 
-# The Original Repository
+## The Original Repository
 
-# The Python File For Facial Detection
+## The Python File For Facial Detection
 
-# The Classifiers Used
+## The Classifiers Used
 
-# The Video Link
+## The Video Link
 
-# The Images Used
+## The Images Used
