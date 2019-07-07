@@ -18,7 +18,7 @@ Program Name | Algorithm Name| Link to Program | Blog | YouTube
 --- | --- | --- | --- | ---
 scrape.py |  Scrape Website Links |  [Program](https://github.com/randerson112358/Python/blob/master/scrape.py) | [Blog](https://medium.com/@randerson112358/scrape-website-using-python-90619cac7c97) | [YouTube](https://youtu.be/LGZEn1OYUTk)
 
-## Machine Learning Programs 
+## Machine Learning Projects & Programs 
 Project Name |Program Name | Algorithm Name| Link to Program | Blog | YouTube
 --- | --- | --- | --- | --- | ---
 Sentiment Analysis |sentiment.py |  Sentiment Analysis |  [Program](https://github.com/randerson112358/Python/blob/master/sentiment.py) | [Blog](https://medium.com/@randerson112358/sentiment-analysis-e2e4442bac13) | [YouTube](https://youtu.be/1VHhDSOwJPw)
