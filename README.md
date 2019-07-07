@@ -7,7 +7,7 @@ To see me programming in Python checkout the YouTube channel: <a target="_blank"
 
 
 
-## Python Programs  / Data Cleaning Videos
+## Python Data Cleaning Programs
 Program Name | Algorithm Name| Link to Program | Blog | YouTube
 --- | --- | --- | --- | ---
 concatenate_file.py |  Concatenate Multiple CSV files |  [Program](https://github.com/randerson112358/Python/blob/master/concatenate_file.py) | [Blog](http://everythingcomputerscience.com/) | [YouTubeX](https://www.youtube.com/channel/UCbmb5IoBtHZTpYZCDBOC1CA)
