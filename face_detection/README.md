@@ -1,4 +1,9 @@
 # Read Me
+In this folder you will find a video of the program so that you are able to run this program yourself, as well as the two classifiers used within the program, the program file, and two repositories that hold many different classifiers other than the two listed here in this project.
+
+# Requirements
+* Python 3
+* pip install opencv-python
 
 ## The Original Repository
 [parulnith/Face-Detection-in-Python-using-OpenCV](https://github.com/parulnith/Face-Detection-in-Python-using-OpenCV)
@@ -12,6 +17,9 @@
 * Face Classifier: [haarcascade_frontalface_default.xml](https://github.com/randerson112358/Python/blob/master/face_detection/haarcascade_frontalface_default.xml)
 
 ## The Video Link
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 [YouTube Face Detection](https://youtu.be/6klXqQMctPk)
 
 ## The Images Used
