@@ -3,7 +3,7 @@ In this folder you will find a video of the program so that you are able to run 
 
 # Requirements
 * Python 3
-* pip install opencv-python
+* `pip install opencv-python`
 
 ## The Video Link
 <a href="https://youtu.be/6klXqQMctPk
