@@ -14,7 +14,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
 ## The Python File For Facial Detection
-[face_recognition.py](https://raw.githubusercontent.com/randerson112358/Python/master/face_detection/face_recognition.py)
+[face_detection.py](https://raw.githubusercontent.com/randerson112358/Python/master/face_detection/face_detection.py)
 
 
 ## The Classifiers Used
