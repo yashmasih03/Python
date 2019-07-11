@@ -27,6 +27,9 @@ img = plt.imshow(x_train[0])
 #Print the label of the first image of the training data set
 print('The label is:', y_train[0])
 
+#Print an example of the new labels, NOTE: The label 6 = [0,0,0,0,0,0,1,0,0,0]
+print('The one hot label is:', y_train_one_hot[0])
+
 #One Hot Encoding: Convert the labels into a set of 10 numbers to input into the neural network
 from keras.utils import to_categorical
 y_train_one_hot = to_categorical(y_train)
