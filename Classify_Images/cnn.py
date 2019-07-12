@@ -72,7 +72,7 @@ model = Sequential() #Create the architecture
 # number of output channels or convolution filters = 32
 # number of rows in the convolution kernel
 # number of cols in the convolution kernel
-# input shape 64x64 RGB image, so spacially it's 3-Dimensional
+# input shape 32x32 RGB image, so spacially it's 3-Dimensional
 # activation function Rectifier Linear Unit aka (ReLu)
 model.add(Conv2D(32, (5, 5), activation='relu', input_shape=(32,32,3))) 
 
