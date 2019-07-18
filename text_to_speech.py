@@ -1,5 +1,6 @@
 # Import the required module for text  
 # to speech conversion 
+#Resource: https://www.geeksforgeeks.org/convert-text-speech-python/
 from gtts import gTTS 
   
 # This module is imported so that we can  
