@@ -147,8 +147,8 @@ from sklearn.metrics import confusion_matrix
 for i in range(len(model)):
   cm = confusion_matrix(Y_test, model[i].predict(X_test))
   
-  TP = cm[0][0]
-  TN = cm[1][1]
+  TN = cm[0][0]
+  TP = cm[1][1]
   FN = cm[1][0]
   FP = cm[0][1]
   
