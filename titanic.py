@@ -216,13 +216,20 @@ model = models(X_train,Y_train)
 from sklearn.metrics import confusion_matrix
 for i in range(len(model)):
   cm = confusion_matrix(Y_test, model[i].predict(X_test))
-  
+
   #extracting true_positives, false_positives, true_negatives, false_negatives
   TN, FP, FN, TP = confusion_matrix(Y_test, model[i].predict(X_test)).ravel()
-  
+
   print(cm)
   print('Model[{}] Testing Accuracy = "{} !"'.format(i,  (TP + TN) / (TP + TN + FN + FP)))
   print()# Print a new line
+
+#extracting true_positives, false_positives, true_negatives, false_negatives
+tn, fp, fn, tp = confusion_matrix(Y_test, model[0].predict(X_test)).ravel()
+print("True Negatives: ",tn)
+print("False Positives: ",fp)
+print("False Negatives: ",fn)
+print("True Positives: ",tp)
 
 #Get the importance of the features
 forest = model[6]
