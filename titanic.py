@@ -209,6 +209,7 @@ def models(X_train,Y_train):
   
   return log, knn, svc_lin, svc_rbf, gauss, tree, forest
 
+#Get and train all of the models
 model = models(X_train,Y_train)
 
 #Show the confusion matrix and accuracy for all of the models on the test data
@@ -226,8 +227,6 @@ for i in range(len(model)):
 
 #Get the importance of the features
 forest = model[6]
-
-
 importances = pd.DataFrame({'feature':titanic.iloc[:, 1:15].columns,'importance':np.round(forest.feature_importances_,3)})
 importances = importances.sort_values('importance',ascending=False).set_index('feature')
 importances
