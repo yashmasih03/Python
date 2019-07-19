@@ -224,13 +224,6 @@ for i in range(len(model)):
   print('Model[{}] Testing Accuracy = "{} !"'.format(i,  (TP + TN) / (TP + TN + FN + FP)))
   print()# Print a new line
 
-#extracting true_positives, false_positives, true_negatives, false_negatives
-tn, fp, fn, tp = confusion_matrix(Y_test, model[0].predict(X_test)).ravel()
-print("True Negatives: ",tn)
-print("False Positives: ",fp)
-print("False Negatives: ",fn)
-print("True Positives: ",tp)
-
 #Get the importance of the features
 forest = model[6]
 
