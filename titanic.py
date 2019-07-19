@@ -217,10 +217,8 @@ from sklearn.metrics import confusion_matrix
 for i in range(len(model)):
   cm = confusion_matrix(Y_test, model[i].predict(X_test))
   
-  TP = cm[0][0]
-  TN = cm[1][1]
-  FN = cm[1][0]
-  FP = cm[0][1]
+  #extracting true_positives, false_positives, true_negatives, false_negatives
+  TN, FP, FN, TP = confusion_matrix(Y_test, model[i].predict(X_test)).ravel()
   
   print(cm)
   print('Model[{}] Testing Accuracy = "{} !"'.format(i,  (TP + TN) / (TP + TN + FN + FP)))
