@@ -34,13 +34,13 @@ titanic.shape
 #Get some statistics from our data set, count, mean standard deviation etc.
 titanic.describe()
 
-#Get a count of the number of survivers 
+#Get a count of the number of survivors 
 titanic['survived'].value_counts()
 
-#Visualize the count of number of survivers
+#Visualize the count of number of survivors
 sns.countplot(titanic['survived'],label="Count")
 
-# Visualize the count of survivers for columns 'who', 'sex', 'pclass', 'sibsp', 'parch', and 'embarked'
+# Visualize the count of survivors for columns 'who', 'sex', 'pclass', 'sibsp', 'parch', and 'embarked'
 cols = ['who', 'sex', 'pclass', 'sibsp', 'parch', 'embarked']
 
 n_rows = 2
