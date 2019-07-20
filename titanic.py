@@ -38,7 +38,7 @@ titanic.describe()
 titanic['survived'].value_counts()
 
 #Visualize the count of number of survivors
-sns.countplot(titanic['survived'],label="Count")
+sns.countplot(titanic['survived'])
 
 # Visualize the count of survivors for columns 'who', 'sex', 'pclass', 'sibsp', 'parch', and 'embarked'
 cols = ['who', 'sex', 'pclass', 'sibsp', 'parch', 'embarked']
