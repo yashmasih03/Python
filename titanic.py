@@ -34,13 +34,13 @@ titanic.shape
 #Get some statistics from our data set, count, mean standard deviation etc.
 titanic.describe()
 
-#Get a count of the number of survivors 
+#Get a count of the number of survivers 
 titanic['survived'].value_counts()
 
-#Visualize the count of number of survivors
-sns.countplot(titanic['survived'])
+#Visualize the count of number of survivers
+sns.countplot(titanic['survived'],label="Count")
 
-# Visualize the count of survivors for columns 'who', 'sex', 'pclass', 'sibsp', 'parch', and 'embarked'
+# Visualize the count of survivers for columns 'who', 'sex', 'pclass', 'sibsp', 'parch', and 'embarked'
 cols = ['who', 'sex', 'pclass', 'sibsp', 'parch', 'embarked']
 
 n_rows = 2
@@ -48,7 +48,7 @@ n_cols = 3
 
 #Number of rows/columns of the subplot grid and the figure size of each graph
 #NOTE: This returns a Figure (fig) and an Axes Object (axs)
-fig, axs = plt.subplots(n_rows, n_cols, figsize=(n_cols*6.4,n_rows*6.4))
+fig, axs = plt.subplots(n_rows, n_cols, figsize=(n_cols*3.2,n_rows*3.2))
 
 for r in range(0,n_rows):
     for c in range(0,n_cols):  
@@ -144,8 +144,8 @@ print(titanic['embarked'].unique())
 titanic.dtypes
 
 #Split the data into independent 'X' and dependent 'Y' variables
-X = titanic.iloc[:, 1:15].values #Notice I started from index  2 to 31, essentially removing the id column & diagnosis
-Y = titanic.iloc[:, 0].values #Get the target variable 'diagnosis' located at index=1
+X = titanic.iloc[:, 1:8].values #Notice I started from index  1 to 7, essentially removing the first column
+Y = titanic.iloc[:, 0].values #Get the target variable
 
 # Split the dataset into 80% Training set and 20% Testing set
 from sklearn.model_selection import train_test_split
@@ -227,7 +227,7 @@ for i in range(len(model)):
 
 #Get the importance of the features
 forest = model[6]
-importances = pd.DataFrame({'feature':titanic.iloc[:, 1:15].columns,'importance':np.round(forest.feature_importances_,3)})
+importances = pd.DataFrame({'feature':titanic.iloc[:, 1:8].columns,'importance':np.round(forest.feature_importances_,3)})
 importances = importances.sort_values('importance',ascending=False).set_index('feature')
 importances
 
