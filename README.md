@@ -23,7 +23,7 @@ replace_strings_with_numbers.py | Changes Strings in CSV to Numbers |  [Program]
 Program Name | Algorithm Name| Link to Program | Blog | YouTube
 --- | --- | --- | --- | ---
 scrape.py |  Scrape Website Links |  [Program](https://github.com/randerson112358/Python/blob/master/scrape.py) | [Blog](https://medium.com/@randerson112358/scrape-website-using-python-90619cac7c97) | [YouTube](https://youtu.be/LGZEn1OYUTk)
-News_Article | Scrape & Summarize Article |  [Program](https://github.com/randerson112358/Python/blob/master/News_Article.ipynb) | [Blog](http://everythingcomputerscience.com/) | [YouTube](https://youtu.be/YzMA2O_v5co)
+News_Article.py | Scrape & Summarize Article |  [Program](https://github.com/randerson112358/Python/blob/master/News_Article.ipynb) | [Blog](http://everythingcomputerscience.com/) | [YouTube](https://youtu.be/YzMA2O_v5co)
 
 ## Machine Learning Projects & Programs 
 Project Name |Program Name | Algorithm Name| Link to Program | Blog | YouTube
