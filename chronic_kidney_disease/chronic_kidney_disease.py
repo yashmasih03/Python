@@ -142,15 +142,18 @@ print("Shape of training data: ", X_train.shape)
 print("Shape of test data    : ", X_test.shape )
 print("-------------------------------------------------------------------")
 
-#Loop through all models currently saved load them and print the original values and the predicited values of the test data set.
+#Loop through all models currently saved, load them and print the original values and the predicited values of the test data set.
 for model_file in glob.glob("*.model"):
   print("Model file: ", model_file)
   model = load_model(model_file)
   pred = model.predict(X_test)
   pred = [1 if y>=0.5 else 0 for y in pred] #Threshold, transforming probabilities to either 0 or 1 depending if the probability is below or above 0.5
   scores = model.evaluate(X_test, y_test)
+  print()
   print("Original  : {0}".format(", ".join([str(x) for x in y_test])))
+  print()
   print("Predicted : {0}".format(", ".join([str(x) for x in pred])))
+  print()
   print("Scores    : loss = ", scores[0], " acc = ", scores[1])
   print("-------------------------------------------------------------------")
   print() #Print Space
