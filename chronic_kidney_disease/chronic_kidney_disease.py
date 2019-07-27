@@ -143,7 +143,7 @@ print("Shape of training data: ", X_train.shape)
 print("Shape of test data    : ", X_test.shape )
 print("-------------------------------------------------------------------")
 
-#Loop through all models currently saved, load them and print the original values and the predicited values of the test data set.
+#Loop through any and all saved models. Then get each models accuracy, loss, prediction and original values on the test data.
 for model_file in glob.glob("*.model"):
   print("Model file: ", model_file)
   model = load_model(model_file)
@@ -154,7 +154,7 @@ for model_file in glob.glob("*.model"):
   print("Original  : {0}".format(", ".join([str(x) for x in y_test])))
   print()
   print("Predicted : {0}".format(", ".join([str(x) for x in pred])))
-  print()
+  print() 
   print("Scores    : loss = ", scores[0], " acc = ", scores[1])
   print("-------------------------------------------------------------------")
-  print() #Print Space
+  print()
