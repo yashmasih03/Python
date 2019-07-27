@@ -135,6 +135,7 @@ plt.title("model accuracy & loss")
 plt.ylabel("accuracy and loss")
 plt.xlabel("epoch")
 plt.legend(['acc', 'loss'], loc='lower right')
+plt.show()
 
 #Print the shape of the training and testing data
 print("-------------------------------------------------------------------")
