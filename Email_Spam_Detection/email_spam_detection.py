@@ -63,7 +63,7 @@ def process_text(text):
     #3
     return clean_words
 
-#Show the Tokenization (a list of tokens also known as lemmas)
+#Show the Tokenization 
 df['text'].head().apply(process_text)
 
 '''
