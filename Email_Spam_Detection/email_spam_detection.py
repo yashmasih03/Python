@@ -42,7 +42,7 @@ df.isnull().sum()
 #Need to download stopwords
 nltk.download('stopwords')
 
-#Tokenization (a list of tokens also known as lemmas), will be used as the analyzer
+#Tokenization (a list of tokens), will be used as the analyzer
 #1.Punctuations are [!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]
 #2.Stop words in natural language processing, are useless words (data).
 def process_text(text):
