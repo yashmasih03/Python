@@ -64,7 +64,7 @@ X_scale
 #That means that everytime you run it without specifying random_state, you will get a different result, this is expected behavior.
 X_train, X_test, y_train, y_test = train_test_split(X_scale, y, test_size=0.2, random_state = 4)
 
-#Build the model and architecture of the deep neural network
+#Build the model and architecture of the neural network
 
 # The models architechture 3 layers,
 # 1st layer with 12 neurons and activation function 'relu'
