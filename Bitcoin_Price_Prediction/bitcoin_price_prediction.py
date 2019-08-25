@@ -20,7 +20,7 @@ from google.colab import files # Use to load data on Google Colab
 uploaded = files.upload() # Use to load data on Google Colab
 
 #Store the data into the variable df
-df = pd.read_csv('BitcoinPrice (1).csv')
+df = pd.read_csv('BitcoinPrice.csv')
 df.head(7)
 
 #Remove the Date column
