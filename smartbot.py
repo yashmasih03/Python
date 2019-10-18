@@ -123,7 +123,7 @@ while(flag==True):
     if(user_response!='bye'): # if the users response is not bye
         if(user_response=='thanks' or user_response=='thank you' ): #Check if the users response is thanks or thank you
             flag=False #Set the flag to false to end the conversation / while loop
-            print("DOCBOT: You're welcome !") #If the users response was thanks ot thank you then have the bot print You are welcome
+            print("DOCBOT: You're welcome !") #If the users response was thanks ot thank you then have the bot print You're welcome
         else:
             if(greeting(user_response)!=None):
                 print("DOCBOT: "+greeting(user_response))
