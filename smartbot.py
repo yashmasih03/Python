@@ -133,4 +133,4 @@ while(flag==True):
                 sent_tokens.remove(user_response) #Remove the users response from the list
     else: #Else the users response was bye
         flag=False #Set the flag to false to end the conversation / while loop
-        print("DOCBOT: Chat with you later !")    #print bye take care to the screen
+        print("DOCBOT: Chat with you later !")    #Chat with you later !
