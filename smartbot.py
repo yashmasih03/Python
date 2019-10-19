@@ -9,6 +9,24 @@ Original file is located at
 
 # Description: This is a 'self learning' chatbot program
 
+"""
+In this video I will show you how to build your very own chat bot using the Python programming language and Machine Learning! 
+More specifically I want to create a "Doctor Chat Bot On Chronic Kidney Disease",
+meaning I can ask this chat bot about chronic kidney disease, and it can come up with a reasonable response.
+
+A chat bot is software that conducts conversations.
+There are broadly two variants of chat bots: Rule-Based and Self Learning.
+A Rule-Based chat bot is a bot that answers questions based on some rules that it is trained on, 
+while a Self Learning chat bot is a chat bot that uses some Machine Learning based technique to chat. 
+We will use a little bit of both in this video.
+
+and
+
+Your kidneys filter wastes and excess fluids.
+Chronic kidney disease, also called chronic kidney failure, describes the gradual loss of kidney function.
+
+"""
+
 #Resources: https://github.com/randerson112358/Building-a-Simple-Chatbot-in-Python-using-NLTK
 
 pip install nltk
@@ -35,29 +53,27 @@ article = Article('https://www.mayoclinic.org/diseases-conditions/chronic-kidney
 article.download() #Download the article
 article.parse() #Parse the article
 article.nlp() #Apply Natural Language Processing (NLP)
-corpus = article.text #Store the article text into corpus
+corpus = article.text #Store the article text into a corpus
 
 print(corpus)
 
 #Tokenization
 text = corpus
-sent_tokens = nltk.sent_tokenize(text)# txt to a list of sentences
+sent_tokens = nltk.sent_tokenize(text)# convert the txt to a list of sentences
 
 #Print the list of sentences
 print(sent_tokens)
 
-#Create WordNetLemmatizer object
-lemmer = WordNetLemmatizer()
-#A function that returns a list of lemmatized tokens
-def LemTokens(tokens):
-    return [lemmer.lemmatize(token) for token in tokens]
-
 #Create a dictionary (key:value pair) to remove punctuations  
 remove_punct_dict = dict(  (ord(punct), None) for punct in string.punctuation)
 
+print(remove_punct_dict)
+
 #Create a function to return a list of lemmatized lower case words after removing punctuations 
 def LemNormalize(text):
-    return LemTokens(nltk.word_tokenize(text.lower().translate(remove_punct_dict)))
+    return nltk.word_tokenize(text.lower().translate(remove_punct_dict))
+
+print( nltk.word_tokenize(text.lower().translate(remove_punct_dict)) )
 
 # Keyword Matching
 #Greeting input from the user
@@ -133,4 +149,4 @@ while(flag==True):
                 sent_tokens.remove(user_response) #Remove the users response from the list
     else: #Else the users response was bye
         flag=False #Set the flag to false to end the conversation / while loop
-        print("DOCBOT: Chat with you later !")    #Chat with you later !
+        print("DOCBOT: Chat with you later !")    #print Chat with you later ! to the screen
