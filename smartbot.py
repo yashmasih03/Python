@@ -89,10 +89,12 @@ def response(user_response):
     #Append the users response to the sentence list
     sent_tokens.append(user_response) 
     
-    #Convert a collection of documents/text to a matrix of Term Frequency-Inverse Document Frequency (TF-IDF) features. NOTE: Stop Words: A stop word is a commonly used word (such as “the”, “a”, “an”, “in”) that a search engine has been programmed to ignore, both when indexing entries for searching and when retrieving them as the result of a search query.
+    #Create TfidfVectorizer object
+    # NOTE: Stop Words: A stop word is a commonly used word (such as “the”, “a”, “an”, “in”) that a search engine has been programmed to ignore, both when indexing entries for searching and when retrieving them as the result of a search query.
     TfidfVec = TfidfVectorizer(tokenizer=LemNormalize, stop_words='english') 
     
-    #Learn vocabulary and idf, return term-document matrix
+    ##Convert a collection of text to a matrix of Term Frequency-Inverse Document Frequency (TF-IDF) features
+    #and return term-document matrix
     #Tf-IDF weight is a weight often used in information retrieval and text mining. 
     #This weight is a statistical measure used to evaluate how important a word is to a document in a collection or corpus
     tfidf = TfidfVec.fit_transform(sent_tokens)
