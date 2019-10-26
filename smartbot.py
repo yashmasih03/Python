@@ -8,6 +8,11 @@ Original file is located at
 """
 
 #Description: This is a 'self learning' chatbot program
+#Resources:
+#(1) https://www.freecodecamp.org/news/how-to-process-textual-data-using-tf-idf-in-python-cd2bbc0a94a3/
+#(2) https://github.com/randerson112358/Building-a-Simple-Chatbot-in-Python-using-NLTK
+#(3) http://www.tfidf.com/
+#(4) https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html
 
 #Install the package NLTk
 pip install nltk
