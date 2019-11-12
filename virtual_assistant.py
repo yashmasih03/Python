@@ -1,5 +1,5 @@
 #Description: This is a virtual assistant program that gets the date, responds back with a random greeting, and returns a response
-#             getting information on a person e.g. 'who is LeBron James'
+#             getting information on a person from wikipedia e.g. 'who is LeBron James'
 
 #A virtual assistant is an application that can understand voice commands and complete tasks for a user.
 
