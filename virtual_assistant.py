@@ -1,7 +1,7 @@
 # Description: This is a virtual assistant program that gets the date, the current time, responds back with a random greeting, and 
 #             returns information on a person from wikipedia e.g. 'who is LeBron James'
 
-# A virtual assistant is an application that can understand voice commands and complete tasks for a user.
+# DEF: A virtual assistant is an application that can understand voice commands and complete tasks for a user.
 
 # Resources:
 # (1) https://towardsdatascience.com/build-your-first-voice-assistant-85a5a49f6cc1
