@@ -32,20 +32,22 @@ warnings.filterwarnings('ignore')
 
 # Record audio and return it as a string
 def recordAudio():
-    # Record the audio
+    # Create a recognizer object named r
     r = sr.Recognizer()
-    with sr.Microphone() as source:  # The with statement itself ensures proper acquisition and release of resources
+    # Open the microphone and start recording 
+    #NOTE: # The with statement itself ensures proper acquisition and release of resources
+    with sr.Microphone() as source:  # Creates a new Microphone instance, which represents a physical microphone on the computer
         print('Say something!')
-        audio = r.listen(source)
+        audio = r.listen(source)# Records a single phrase 
 
     # Speech recognition using Google's Speech Recognition
     data = ''
-    try:
+    try: #Try to get google to recognize the audio NOTE: The try block lets you test a block of code for errors
         data = r.recognize_google(audio)
         print('You said: ' + data)
-    except sr.UnknownValueError:
+    except sr.UnknownValueError: # Check for unknown errors, NOTE: The except block lets you handle the error.
         print('Google Speech Recognition could not understand the audio,  unknown error')
-    except sr.RequestError as e:
+    except sr.RequestError as e:  # Check for request error
         print('Request results from Google Speech Recognition service error ' + e)
 
     return data
@@ -78,7 +80,7 @@ def wakeWord(text):
     # If the wake word wasn't found in the loop then return False
     return False
 
-
+# A function to get the current date
 def getDate():
     now = datetime.datetime.now()
     my_date = datetime.datetime.today()
@@ -110,7 +112,7 @@ def greeting(text):
     # If no greeting was detected then return an empty string
     return ''
 
-# function to get information on a person
+# Function to get a persons' first and last name
 def getPerson(text):
     wordList = text.split()  # Split the text into a list of words
 
@@ -140,11 +142,18 @@ while True:
             now = datetime.datetime.now()
             meridiem = ''
             if now.hour >= 12:
-                meridiem = 'p.m' #Post Meridiem (PM)
+                meridiem = 'p.m' #Post Meridiem (PM), after midday
                 hour = now.hour - 12
             else:
-                meridiem = 'a.m'#After Meridiem (AM)
-            response = response + ' '+'It is '+str(hour) +':'+ str(now.minute)+' '+meridiem+' .'
+                meridiem = 'a.m'#Anter Meridiem (AM), before midday
+                
+            # Convert minute into a proper string  
+            if now.minute < 10:
+                minute = '0'+str(now.minute)
+            else:
+                minute = str(now.minute)
+
+            response = response + ' '+ 'It is '+ str(hour)+ ':'+minute+' '+meridiem+' .'
         
         #Check to see if the user said 'who is'
         if ('who is' in text):
