@@ -10,7 +10,7 @@
 # (4) https://pypi.org/project/SpeechRecognition/1.2.3/
 # (5) https://stackabuse.com/getting-started-with-pythons-wikipedia-api/
 
-
+#Be sure to first install the following packages:
 # pip install pyaudio
 # pip install SpeechRecognition
 # pip install gTTS
