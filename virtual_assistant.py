@@ -146,6 +146,7 @@ while True:
                 hour = now.hour - 12
             else:
                 meridiem = 'a.m'#Ante Meridiem (AM), before midday
+                hour = now.hour
                 
             # Convert minute into a proper string  
             if now.minute < 10:
