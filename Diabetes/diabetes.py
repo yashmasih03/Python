@@ -70,7 +70,7 @@ X_train, X_test, y_train, y_test = train_test_split(X_scale, y, test_size=0.2, r
 # 1st layer with 12 neurons and activation function 'relu'
 # 2nd layer with 15 neurons and activation function 'relu'
 # the last layer has 1 neuron with an activation function = sigmoid function which returns a value btwn 0 and 1
-# The input shape/ input_dim = 10 the number of features in the data set
+# The input shape/ input_dim = 8 the number of features in the data set
 model = Sequential([
     Dense(12, activation='relu', input_shape=( 8 ,)),
     Dense(15, activation='relu'),
