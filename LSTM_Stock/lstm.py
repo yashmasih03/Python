@@ -115,7 +115,7 @@ model.compile(optimizer='adam', loss='mean_squared_error')
 model.fit(x_train, y_train, batch_size=1, epochs=1)
 
 #Create the testing data set
-#Create the scaled testing data set : a new array containing the scaled values from index 1543 to 2003 of the dataframe, for a total length of 460, using the past 60 days
+#Create the scaled testing data set : a new array containing the scaled values from index 1543 to 2002 of the dataframe, for a total length of 460, using the past 60 days
 test_data = scaled_data[training_data_len - 60: , : ]
 #Create the x_test and y_test data sets
 x_test = []
