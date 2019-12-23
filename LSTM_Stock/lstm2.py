@@ -88,7 +88,7 @@ model.compile(optimizer='adam', loss='mean_squared_error')
 model.fit(x_train, y_train, batch_size=1, epochs=1)
 
 #Create the testing data set
-#Create a new array containing scaled values from index 1543 to 2003 
+#Create a new array containing scaled values from index 1543 to 2002
 test_data = scaled_data[training_data_len - 60: , :]
 #Create the data sets x_test and y_test
 x_test = []
