@@ -107,7 +107,7 @@ predictions = model.predict(x_test)
 predictions = scaler.inverse_transform(predictions)
 
 #Get the root mean squared error (RMSE)
-rmse = np.sqrt( np.mean( predictions - y_test )**2 )
+rmse=np.sqrt(np.mean(((predictions- y_test)**2)))
 rmse
 
 #Plot the data
