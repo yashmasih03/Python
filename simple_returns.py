@@ -76,7 +76,7 @@ def showGraph(stocks= stockSymbols,start=stockStartDate, end=today, col='Adj Clo
   my_stocks = getMyPortfolio(stocks= stocks, start=start, end=end, col = col)
   
   # Visualize the price history
-  plt.figure(figsize=(12.2,4.5)) #width = 14in, height = 6in shows better
+  plt.figure(figsize=(12.2,4.5)) #width = 12.2in, height = 4.5
   # Loop through each stock and plot the Adj Close for each day
   for c in my_stocks.columns.values:
     plt.plot( my_stocks[c],  label=c)#plt.plot( X-Axis , Y-Axis, line_width, alpha_for_blending,  label)
