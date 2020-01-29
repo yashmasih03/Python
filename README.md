@@ -50,4 +50,9 @@ Article Text To Speech |Article_Text_To_Speech.py | NLP |  [Program](https://git
 AI Smart Dr.Chat Bot |smartbot.py | NLP |  [Program](https://github.com/randerson112358/Python/blob/master/smartbot.py) | [Blog](https://medium.com/@randerson112358/build-your-own-ai-chat-bot-using-python-machine-learning-682ddd8acc29) | [YouTube](https://youtu.be/QpMsT0WuIuI)
 Neural Network Stock Prediction |lstm2.py | LSTM |  [Program](https://github.com/randerson112358/Python/blob/master/LSTM_Stock/lstm2.py) | [Blog](https://medium.com/@randerson112358/stock-price-prediction-using-python-machine-learning-e82a039ac2bb) | [YouTube](https://youtu.be/QIUxPv5PJOY)
 
+## Interesting Python Programs
+Program Name |  Link to Program | Blog | YouTube
+--- | --- | --- | --- | ---
+Python For Finance Simple Returns |simple_returns.py |   [Program](https://github.com/randerson112358/Python/blob/master/simple_returns.py) | [Blog](https://medium.com/@randerson112358/python-for-finance-25d2ed1ed35d) | [YouTube](https://youtu.be/O-O1WclwXck)
+
 
