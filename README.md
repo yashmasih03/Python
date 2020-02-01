@@ -51,7 +51,8 @@ AI Smart Dr.Chat Bot |smartbot.py | NLP |  [Program](https://github.com/randerso
 Neural Network Stock Prediction |lstm2.py | LSTM |  [Program](https://github.com/randerson112358/Python/blob/master/LSTM_Stock/lstm2.py) | [Blog](https://medium.com/@randerson112358/stock-price-prediction-using-python-machine-learning-e82a039ac2bb) | [YouTube](https://youtu.be/QIUxPv5PJOY)
 
 ## Interesting Python Programs 
-Project Name |Program Name | Algorithm Name| Link to Program | Blog | YouTube
+Project Name |Program Name |  Link to Program | Blog | YouTube
+--- | --- | --- | --- | --- 
 Python For Finance Simple Returns |simple_returns.py |   [Program](https://github.com/randerson112358/Python/blob/master/simple_returns.py) | [Blog](https://medium.com/@randerson112358/python-for-finance-25d2ed1ed35d) | [YouTube](https://youtu.be/O-O1WclwXck)
 
 
