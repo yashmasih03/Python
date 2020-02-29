@@ -26,7 +26,7 @@ scrape.py |  Scrape Website Links |  [Program](https://github.com/randerson11235
 News_Article.py | Scrape & Summarize Article |  [Program](https://github.com/randerson112358/Python/blob/master/News_Article.ipynb) | [Blog](http://everythingcomputerscience.com/) | [YouTube](https://youtu.be/YzMA2O_v5co)
 
 
-## Machine Learning Projects & Programs <p align="center"><img src="https://cdn.pixabay.com/photo/2019/04/15/12/09/machine-learning-4129175_960_720.jpg" width="400"/></p>
+## Machine Learning Projects & Programs <p align="center"><img src="https://cdn.pixabay.com/photo/2019/04/15/12/09/machine-learning-4129175_960_720.jpg" width="800"/></p>
 Project Name |Program Name | Algorithm Name| Link to Program | Blog | YouTube
 --- | --- | --- | --- | --- | ---
 Sentiment Analysis |sentiment.py |  Sentiment Analysis |  [Program](https://github.com/randerson112358/Python/blob/master/sentiment.py) | [Blog](https://medium.com/@randerson112358/sentiment-analysis-e2e4442bac13) | [YouTube](https://youtu.be/1VHhDSOwJPw)
