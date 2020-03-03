@@ -1,0 +1,4 @@
+In this folder is:
+1. Data file that contains data on cardiovascular / heart disease
+2. Cardiovascular_Disease_Detection.ipynb file
+3. Cardiovascular_Disease_Detection.py file
