@@ -57,6 +57,7 @@ Movie Recommendation Engine |Movie_Recommendation.ipynb | Cosine Similarity |  [
 Article Text To Speech |Article_Text_To_Speech.py | NLP |  [Program](https://github.com/randerson112358/Python/blob/master/Article_Text_To_Speech.py) | [Blog](https://medium.com/@randerson112358/build-a-text-to-speech-program-using-python-b70de7105383) | [YouTube](https://youtu.be/uPSIUjo_Fhw)
 AI Smart Dr.Chat Bot |smartbot.py | NLP |  [Program](https://github.com/randerson112358/Python/blob/master/smartbot.py) | [Blog](https://medium.com/@randerson112358/build-your-own-ai-chat-bot-using-python-machine-learning-682ddd8acc29) | [YouTube](https://youtu.be/QpMsT0WuIuI)
 Neural Network Stock Prediction |lstm2.py | LSTM |  [Program](https://github.com/randerson112358/Python/blob/master/LSTM_Stock/lstm2.py) | [Blog](https://medium.com/@randerson112358/stock-price-prediction-using-python-machine-learning-e82a039ac2bb) | [YouTube](https://youtu.be/QIUxPv5PJOY)
+Heart Disease Detection |cardiovascular_disease_detection.py | RandomForest |  [Program](https://github.com/randerson112358/Python/blob/master/Heart/cardiovascular_disease_detection.py) | [Blog](https://medium.com/@randerson112358/heart-disease-detection-using-machine-learning-python-a701f39396cb) | [YouTube](https://youtu.be/kySc5Wg1Gxw)
 
 ## Interesting Python Programs 
 Project Name |Program Name |  Link to Program | Blog | YouTube
