@@ -99,8 +99,8 @@ df = df.drop('Age', axis = 1)
 df
 
 #Split the data into independent 'X' and dependent 'Y' variables
-X = df.iloc[:, 1:df.shape[1]].values #Notice I started from index  2 to 31, essentially removing the id column & diagnosis
-Y = df.iloc[:, 0].values #Get the target variable 'diagnosis' located at index=1
+X = df.iloc[:, 1:df.shape[1]].values 
+Y = df.iloc[:, 0].values 
 
 # Split the dataset into 75% Training set and 25% Testing set
 from sklearn.model_selection import train_test_split
