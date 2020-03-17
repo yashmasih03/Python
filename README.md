@@ -10,7 +10,7 @@ To see me programming in Python checkout the YouTube channel: <a target="_blank"
 #
 
 <h1 align="center">Relavent Books On
-  <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" width="200"/></p></h1>
+  <p align="center">[<img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" width="200"/>](http://google.com.au/)</p></h1>
 
 
 * [Learning Python, 5th Edition](https://www.amazon.com/gp/product/1449355730/ref=as_li_tl?ie=UTF8&tag=github01d-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1449355730&linkId=95e6eaf8c12b9fcd483dd06c1dd53e48)
