@@ -32,9 +32,10 @@ Resources:
 4. Treasury Bills (Risk Free Asset): https://www.investopedia.com/terms/t/treasurybill.asp
 5. The Sharpe Ratio : https://www.investopedia.com/articles/07/sharpe_ratio.asp
 6. Calculating the Sharpe Ratio In Python : https://towardsdatascience.com/calculating-sharpe-ratio-with-python-755dcb346805
-7. Efficient Frontier Portfolio Optimisation In Python : https://towardsdatascience.com/efficient-frontier-portfolio-optimisation-in-python-e7844051e7f
+7. Efficient Frontier Portfolio Optimization In Python : https://towardsdatascience.com/efficient-frontier-portfolio-optimisation-in-python-e7844051e7f
 8. log returns vs simple returns : https://fintechprofessor.com/tag/log-returns-vs-simple-returns/ 
 9. What is a good Sharpe Ratio: https://www.investopedia.com/ask/answers/010815/what-good-sharpe-ratio.asp
+10. Optimizing Portfolios with Modern Portfolio Theory Using Python: https://towardsdatascience.com/optimizing-portfolios-with-modern-portfolio-theory-using-python-60ce9a597808
 
 '''
 
