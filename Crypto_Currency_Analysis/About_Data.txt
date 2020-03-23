@@ -1,0 +1,7 @@
+This folder contains 1 years worth of data of 3 data sets for the crypto currencies (Ether, Bitcoin, & Litecoin).
+The data sets were downloaded on March 21, 2020. 
+
+The data was gathered from: coindesk.com
+Ether: https://www.coindesk.com/price/ethereum
+Bitcoin: https://www.coindesk.com/price/bitcoin
+Litecoin: https://www.coindesk.com/price/litecoin
